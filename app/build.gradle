@@ -41,4 +41,11 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.14.2@aar") {
         transitive = true
     }
+    implementation 'com.google.zxing:core:3.2.1'
+    // https://mvnrepository.com/artifact/com.journeyapps/zxing-android-embedded
+    implementation group: 'com.journeyapps', name: 'zxing-android-embedded', version: '3.6.0'
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.10'
+    implementation 'com.intuit.ssp:ssp-android:1.0.5'
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
 }
